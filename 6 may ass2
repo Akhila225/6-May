@@ -1,0 +1,16 @@
+e={1:[101,'sana','manager',25-8-2000,45000,'tpg'],2:[102,'anu','clerk',12-2-2001,15000,'eluru'],3:[103,'durga','clerk',20-1-2003,18000,'tpg']}
+x=int(input('enter the student no: '))
+print('emp no: ',e[x][0])
+print('emp name: ',e[x][1])
+print('emp desig: ',e[x][2])
+print('emp doj: ',e[x][3])
+print('emp sal: ',e[x][4])
+print('city: ',e[x][5])
+Output:
+enter the student no: 3
+emp no:  103
+emp name:  durga
+emp desig:  clerk
+emp doj:  -1984
+emp sal:  18000
+city:  tpg
